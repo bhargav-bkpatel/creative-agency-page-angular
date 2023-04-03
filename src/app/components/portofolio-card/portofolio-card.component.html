@@ -1,0 +1,15 @@
+<div class="portofolio-card-speaker-card" [ngClass]="rootClassName">
+  <div class="portofolio-card-image-container">
+    <img
+      [attr.alt]="image_alt"
+      [attr.src]="image_src"
+      class="portofolio-card-image"
+    />
+    <div class="portofolio-card-see-project-container">
+      <button class="button-secondary-white button button-md">
+        See project
+      </button>
+    </div>
+  </div>
+  <span class="portofolio-card-first-name">{{ project_title }}</span>
+</div>
